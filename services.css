@@ -1,0 +1,107 @@
+.pic img{
+    width: 70vw;
+    height: 400px;
+    position: relative;
+    top: -15px;
+}
+.skillpic{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.img1 {
+   display: flex;
+   flex-direction: column;
+}
+
+.img2 {
+    display: flex;
+    flex-direction: column;
+}
+.img2 img{
+    width: 270px;
+    height: 207px;
+}
+.img1 p{
+    font-size: medium;
+    margin-top: 9px ;
+    margin-left: 72px;
+    
+
+}
+.img2 p{
+    font-size: medium;
+    margin-top: 9px ;
+    
+
+}
+.f1st{
+    margin-top: 45px;
+    background: #7F7FD5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 400px;
+   
+
+}
+.f1st h3{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    
+}
+.f1st input{
+    
+    border-color: black;
+    margin-top: 15px;
+  
+}
+.f1st label{
+   
+    
+    margin-top: 15px;
+}
+#Submit{
+    width: 71px;
+    height: 25px;
+    border-radius: 13px;
+    margin-left: 5px;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: aliceblue;
+    margin-top: 27px;
+
+}
+#Submit:hover{
+    color:  #7F7FD5;
+   
+}
+.para{
+   font-size: 30px;
+   margin-top: 30px;
+   margin-left: 5px;
+    
+   
+}
+#fname1{
+    margin-left: 5px;
+}
+#fname2{
+    margin-left: 5px;
+}
+#fname3{
+    margin-left: 5px;
+}
+
+.f1{
+    margin-left: 7px;
+}
+.f2{
+    margin-left: 7px;
+}
+
+#sname2{
+    margin-left: 7px;
+}

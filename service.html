@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="services.css">
+    <title>Ashis Biswal - Frontend Developer</title>
+</head>
+<body>
+<div class="container">
+    <div class="sidebar sidebarGo">
+
+        
+        <nav>
+            <ul>
+                <li><a href="/index.html"> Home </a></li>
+                <li><a href="/intro.html"> My Intro </a></li>
+                
+                <li><a href="/blog.html"> Blog </a></li>
+                <li><a href="/service.html"> Services </a></li>
+            </ul>
+        </nav>
+
+    </div>
+    
+    <div class="main">
+        <p>Services</p>
+        <span class="project" style="float: right;">Projects</span>
+        <div class="hamburger">
+            <img class="menu" src="menu.png" alt="">
+            <img class="cross" src="cross.png" alt="">
+            
+        </div>
+        <div class="infocontainer">
+           
+            <div class="pic"><img src="services.jpg" alt=""></div>
+        </div>
+        <div class="skillpic">
+            <div class="img1">
+                <img src="ui.png" alt="">
+                <p>UI/UX Design</p>
+                
+                
+                
+            
+            </div>
+            <div class="img2">
+                <img src="frontend.png" alt="">
+                <p>Frontend Developement</p>
+            
+            </div>
+       
+
+        </div>
+        <form class="f1st">
+            <h3>Get in Touch</h3>
+            <label for="fname1" id="fname1">Name:</label>
+            <input type="text" id="fname1" name="fname1" required>
+            <label for="fname2" id="fname2">Work Email:</label>
+            <input type="email" id="fname2" name="fname2" required>
+            <label for="fname3" id="fname3">Phone:</label>
+            <input type="Phone" id="fname1" name="fname1" required>
+            <div class="para">What service do u want</div>
+            <label for="sname" id="12" class="f1">UI/UX Design:</label>
+            <input type="checkbox" id="1" name="sname" class="f1" onclick="selectonlythis(this.id)">
+            <label for="sname" id="23" class="f2">Frontend Developement:</label>
+            <input type="checkbox" id="2" name="sname" class="f2" onclick="selectonlythis(this.id)">
+            <div class="para">The service should be provided within</div>
+            <label for="sname2" id="sname2">2 weeks:</label>
+            <input type="radio" id="sname2" name="sname2">
+            <label for="sname2" id="sname2">Less than 2 weeks:</label>
+            <input type="radio" id="sname2" name="sname2">
+            <br>
+            <input type="submit" id="Submit">
+            
+
+
+
+
+        </form>
+      
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

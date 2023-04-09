@@ -1,0 +1,43 @@
+.contactform{
+    color: aliceblue;
+}
+.contactform h1{
+    padding: 12px 0;
+}
+
+.contactform form div{
+    padding: 9px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+    
+}
+
+.primbutton{
+    border-radius: 5px;
+    color: black;
+    background-color: dodgerblue;
+    width: 52px;
+    height: 23px;
+
+}
+
+.primbutton:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+.contactform{
+    padding: 0 34px;
+    padding-top: 144px;
+}
+#form-check input{
+    width: 10px;
+    margin: 5px 3px;
+    
+}

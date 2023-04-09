@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+.primbutton1{
+    border-radius: 18px;
+    border-color: aliceblue;
+    color: aliceblue;
+    background-color: dodgerblue;
+    width: 66px;
+    height: 33px;
+    font-size: 11px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 60px;
+}
+.blogcontainer{
+    
+    margin-left: 69px;
+    width: 80vw;
+   
+}
+.blogcontainer h1{
+    margin-left: 61px;
+    
+   
+   
+}
+.primbutton1:hover{
+    color: black;
+    background-color: aliceblue;
+}
+
+.blogo{
+    
+    font-size: 11px;
+    color: aliceblue;
+}
+.blogo p{
+    font-family: 'Source Code Pro', monospace;
+    color: aliceblue;
+    font-size: medium;
+
+   
+}
+.mainhead{
+    margin-top: 56px;
+    color: aliceblue;
+    margin-left: 128px;
+}
